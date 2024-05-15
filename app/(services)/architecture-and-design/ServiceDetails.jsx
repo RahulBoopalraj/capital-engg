@@ -32,7 +32,7 @@ export default function ServiceDetails({ serviceId }) {
               diverse spectrum of projects – from inception to construction.
               </p>
             </div>
-            <h3>Our Commitment:</h3>
+            <h4>Our Commitment:</h4>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, integrity is the cornerstone of our philosophy. 
             This unwavering commitment fuels our drive to consistently surpass client expectations. 
@@ -58,13 +58,13 @@ export default function ServiceDetails({ serviceId }) {
             </div>
           </div>
           <div className="col-xl-8">
-            <h3>Crafting Distinctive Environments:</h3>
+            <h4>Crafting Distinctive Environments:</h4>
             <p className="sec-text mt-n1 mb-40">
             For us, architecture is more than just creating buildings; it's about shaping environments 
             that resonate with creativity and functionality. Our designs seamlessly integrate with their 
             surroundings, leaving an indelible mark on the landscape.
             </p>
-            <h3>Unparalleled Expertise:</h3>
+            <h4>Unparalleled Expertise:</h4>
             <p className="sec-text mt-30">
             Our comprehensive scope of services encompasses every stage of the architectural journey, 
             from conceptualization to project management. With a keen eye for detail and a passion for excellence, we offer:

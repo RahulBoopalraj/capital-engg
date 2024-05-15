@@ -24,7 +24,7 @@ export const menuItems = [
       { id: 21, label: "Project Management Consultancy", link: "/project-management-consultancy" },
       { id: 21, label: "Environmental Solutions", link: "/environmental-solutions" },
       { id: 21, label: "Landscaping", link: "/landscaping" },
-      { id: 21, label: "Fit Out & Interior Design", link: "/architecture-and-design" },
+      { id: 21, label: "Fit Out & Interior Design", link: "/fitout-and-interiordesign" },
     ],
   },
   {

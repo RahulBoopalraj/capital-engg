@@ -36,7 +36,7 @@ export default function ServiceDetails({ serviceId }) {
               As an EAD registered Class ‘A’ Environmental consultant in Abu Dhabi, we are dedicated to delivering exceptional results to our clients.
               </p>
             </div>
-            <h3>Our Services Include:</h3>
+            <h4>Our Services Include:</h4>
             <ol>
             <li className="sec-text mb-40 mt-30">Environmental and Social Impact Assessments</li>
             <li className="sec-text mb-40 mt-30">Environmental Management Plans</li>
