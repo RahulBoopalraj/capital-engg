@@ -16,29 +16,15 @@ export const menuItems = [
   },
   {
     id: 2,
-    title: "PAGES",
+    title: "SERVICES",
     subMenuItems: [
-      { id: 21, label: "About Page", link: "/about" },
-      {
-        id: 22,
-        title: "Service Page",
-
-        subMenuItems: [
-          { id: 221, label: "Service Version 1", link: "/service" },
-          { id: 222, label: "Service Version 2", link: "/service-2" },
-          { id: 223, label: "Service Version 3", link: "/service-3" },
-          {
-            id: 224,
-            label: "Service Details Page",
-            link: "/service-details/2",
-          },
-        ],
-      },
-      { id: 23, label: "Team Page", link: "/team" },
-      { id: 24, label: "Team Details Page", link: "/team-details/2" },
-      { id: 25, label: "Pricing Page", link: "/pricing" },
-      { id: 26, label: "FAQ Page", link: "/faq" },
-      { id: 27, label: "Error Page", link: "/error" },
+      { id: 21, label: "Architecture & Design", link: "/architecture-and-design" },
+      { id: 21, label: "MEP Design", link: "/mep-design" },
+      { id: 21, label: "Structural Engineering", link: "/structural-engineering" },
+      { id: 21, label: "Project Management Consultancy", link: "/project-management-consultancy" },
+      { id: 21, label: "Environmental Solutions", link: "/environmental-solutions" },
+      { id: 21, label: "Landscaping", link: "/landscaping" },
+      { id: 21, label: "Fit Out & Interior Design", link: "/architecture-and-design" },
     ],
   },
   {
