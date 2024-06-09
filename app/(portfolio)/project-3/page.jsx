@@ -3,7 +3,7 @@ import Footer8 from "@/components/footers/Footer8";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb from "@/components/portfolio/Breadcumb";
 
-import Projects3 from "@/components/portfolio/Projects3";
+import ProjectsCustom from "@/components/portfolio/Project-Custom";
 import React from "react";
 export const metadata = {
   title: "Project 3 || Frisk - Creative Agency & Portfolio Nextjs Template",
@@ -13,7 +13,7 @@ export default function ProjectPage3() {
     <>
       <Header3 />
       <Breadcumb />
-      <Projects3 />
+      <ProjectsCustom />
       <MarqueeComponent />
       <Footer8 />
     </>

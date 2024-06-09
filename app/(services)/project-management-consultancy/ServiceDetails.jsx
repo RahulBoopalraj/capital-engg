@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/projectmanage.jpg"
                 alt="img"
               />
             </div>
@@ -52,7 +52,7 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/projectmange1.jpg)",
                     overflow: "hidden",
                   }}
                 ></div>
@@ -66,20 +66,20 @@ export default function ServiceDetails({ serviceId }) {
           <div className="col-xl-8">
             <h4>OUR SERVICES INCLUDE:</h4>
             <ol>
-            <li className="sec-text mb-40 mt-30">Value Engineering</li>
-            <li className="sec-text mb-40 mt-30">Supervision</li>
-            <li className="sec-text mb-40 mt-30">Contract Management</li>
-            <li className="sec-text mb-40 mt-30">Design Management and Review</li>
-            <li className="sec-text mb-40 mt-30">Planning</li>
-            <li className="sec-text mb-40 mt-30">Project Cost Control</li>
-            <li className="sec-text mb-40 mt-30">Deputations of Engineers</li>
-            <li className="sec-text mb-40 mt-30">Quality Management and Assurance</li>
-            <li className="sec-text mb-40 mt-30">Risk Management</li>
-            <li className="sec-text mb-40 mt-30">Scheduling</li>
-            <li className="sec-text mb-40 mt-30">Procurement</li>
-            <li className="sec-text mb-40 mt-30">Construction Management</li>
-            <li className="sec-text mb-40 mt-30">Claims Management and Dispute Resolution</li>
-            <li className="sec-text mb-40 mt-30">Contractual FIDIC Advice</li>
+            <li className="sec-text mb-12 mt-12">Value Engineering</li>
+            <li className="sec-text mb-12 mt-12">Supervision</li>
+            <li className="sec-text mb-12 mt-12">Contract Management</li>
+            <li className="sec-text mb-12 mt-12">Design Management and Review</li>
+            <li className="sec-text mb-12 mt-12">Planning</li>
+            <li className="sec-text mb-12 mt-12">Project Cost Control</li>
+            <li className="sec-text mb-12 mt-12">Deputations of Engineers</li>
+            <li className="sec-text mb-12 mt-12">Quality Management and Assurance</li>
+            <li className="sec-text mb-12 mt-12">Risk Management</li>
+            <li className="sec-text mb-12 mt-12">Scheduling</li>
+            <li className="sec-text mb-12 mt-12">Procurement</li>
+            <li className="sec-text mb-12 mt-12">Construction Management</li>
+            <li className="sec-text mb-12 mt-12">Claims Management and Dispute Resolution</li>
+            <li className="sec-text mb-12 mt-12">Contractual FIDIC Advice</li>
            </ol>
             <p className="sec-text mb-40 mt-30">
             At Capital Engineering Consultancy, we go beyond project management; we deliver excellence, integrity, 

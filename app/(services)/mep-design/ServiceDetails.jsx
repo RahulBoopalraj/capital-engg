@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/mep.jpg"
                 alt="img"
               />
             </div>
@@ -51,7 +51,7 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/mep1.png)",
                     overflow: "hidden",
                   }}
                 ></div>
@@ -70,17 +70,17 @@ export default function ServiceDetails({ serviceId }) {
               </p>
             <h4>Areas of Expertise in MEP:</h4>
             <ol>
-            <li className="sec-text mb-40 mt-30">Mechanical Engineering</li>
-            <li className="sec-text mb-40 mt-30">Electrical and Low Current Engineering</li>
-            <li className="sec-text mb-40 mt-30">HVAC Engineering</li>
-            <li className="sec-text mb-40 mt-30">BIM (Building Information Modeling)</li>
-            <li className="sec-text mb-40 mt-30">Infrastructure Design</li>
-            <li className="sec-text mb-40 mt-30">Energy Modeling</li>
-            <li className="sec-text mb-40 mt-30">Sustainable Design Analysis</li>
-            <li className="sec-text mb-40 mt-30">DM Green Building and Estidama Compliant Design</li>
-            <li className="sec-text mb-40 mt-30">Value Engineering</li>
-            <li className="sec-text mb-40 mt-30">Building Retrofit Design</li>
-            <li className="sec-text mb-40 mt-30">Quantity Surveying</li>
+            <li className="sec-text mb-12 mt-12">Mechanical Engineering</li>
+            <li className="sec-text mb-12 mt-12">Electrical and Low Current Engineering</li>
+            <li className="sec-text mb-12 mt-12">HVAC Engineering</li>
+            <li className="sec-text mb-12 mt-12">BIM (Building Information Modeling)</li>
+            <li className="sec-text mb-12 mt-12">Infrastructure Design</li>
+            <li className="sec-text mb-12 mt-12">Energy Modeling</li>
+            <li className="sec-text mb-12 mt-12">Sustainable Design Analysis</li>
+            <li className="sec-text mb-12 mt-12">DM Green Building and Estidama Compliant Design</li>
+            <li className="sec-text mb-12 mt-12">Value Engineering</li>
+            <li className="sec-text mb-12 mt-12">Building Retrofit Design</li>
+            <li className="sec-text mb-12 mt-12">Quantity Surveying</li>
            </ol>
             <p className="sec-text mb-40 mt-30">
             Choose Capital Engineering Consultancy as your trusted partner for all your MEP design needs, and elevate your projects to new heights of engineering excellence.

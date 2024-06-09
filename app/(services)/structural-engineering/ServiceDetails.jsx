@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/structural.jpg"
                 alt="img"
               />
             </div>
@@ -43,7 +43,7 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/structural1.jpg)",
                     overflow: "hidden",
                   }}
                 ></div>

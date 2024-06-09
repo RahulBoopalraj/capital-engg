@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/landscaping.jpg"
                 alt="img"
               />
             </div>
@@ -53,7 +53,7 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/landscaping1.jpg)",
                     overflow: "hidden",
                   }}
                 ></div>
@@ -74,12 +74,12 @@ export default function ServiceDetails({ serviceId }) {
             </p>
             <h4>Our Services in Landscape Design Include:</h4>
             <ol>
-            <li className="sec-text mb-40 mt-30">Site Planning</li>
-            <li className="sec-text mb-40 mt-30">Design</li>
-            <li className="sec-text mb-40 mt-30">Irrigation Engineering</li>
-            <li className="sec-text mb-40 mt-30">Landscape & Gardening Works</li>
-            <li className="sec-text mb-40 mt-30">Drawing Submittals</li>
-            <li className="sec-text mb-40 mt-30">Plant Specifications</li>
+            <li className="sec-text mb-12 mt-12">Site Planning</li>
+            <li className="sec-text mb-12 mt-12">Design</li>
+            <li className="sec-text mb-12 mt-12">Irrigation Engineering</li>
+            <li className="sec-text mb-12 mt-12">Landscape & Gardening Works</li>
+            <li className="sec-text mb-12 mt-12">Drawing Submittals</li>
+            <li className="sec-text mb-12 mt-12">Plant Specifications</li>
            </ol>
             <p className="sec-text mb-40 mt-30">
             At Capital Engineering Consultancy, we are dedicated to delivering high-quality 

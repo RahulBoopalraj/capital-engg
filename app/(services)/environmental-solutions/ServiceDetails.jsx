@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/environmentalsolutions.jpg"
                 alt="img"
               />
             </div>
@@ -38,14 +38,14 @@ export default function ServiceDetails({ serviceId }) {
             </div>
             <h4>Our Services Include:</h4>
             <ol>
-            <li className="sec-text mb-40 mt-30">Environmental and Social Impact Assessments</li>
-            <li className="sec-text mb-40 mt-30">Environmental Management Plans</li>
-            <li className="sec-text mb-40 mt-30">Environmental Monitoring of Works</li>
-            <li className="sec-text mb-40 mt-30">Environmental Audits</li>
-            <li className="sec-text mb-40 mt-30">Waste Management Consultancy</li>
-            <li className="sec-text mb-40 mt-30">Training and Environmental Education</li>
-            <li className="sec-text mb-40 mt-30">Risk and Hazard Assessments</li>
-            <li className="sec-text mb-40 mt-30">Environmental Due Diligence Consultancy</li>
+            <li className="sec-text mb-12 mt-12">Environmental and Social Impact Assessments</li>
+            <li className="sec-text mb-12 mt-12">Environmental Management Plans</li>
+            <li className="sec-text mb-12 mt-12">Environmental Monitoring of Works</li>
+            <li className="sec-text mb-12 mt-12">Environmental Audits</li>
+            <li className="sec-text mb-12 mt-12">Waste Management Consultancy</li>
+            <li className="sec-text mb-12 mt-12">Training and Environmental Education</li>
+            <li className="sec-text mb-12 mt-12">Risk and Hazard Assessments</li>
+            <li className="sec-text mb-12 mt-12">Environmental Due Diligence Consultancy</li>
            </ol>
            <p className="sec-text mb-40 mt-30">
             At Capital Engineering Consultancy, we are committed to delivering innovative 
@@ -61,7 +61,7 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/envsolution1.jpg)",
                     overflow: "hidden",
                   }}
                 ></div>

@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/architecture.png"
                 alt="img"
               />
             </div>
@@ -46,10 +46,10 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/architecture1.jpg)",
                     overflow: "hidden",
                   }}
-                ></div>
+                ></div>1
                 <a
                   href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
                   className="play-btn popup-video background-image"
@@ -70,15 +70,15 @@ export default function ServiceDetails({ serviceId }) {
             from conceptualization to project management. With a keen eye for detail and a passion for excellence, we offer:
             </p>
             <ol>
-            <li className="sec-text mb-40 mt-30">Conceptual Design Development</li>
-            <li className="sec-text mb-40 mt-30">Detail Design Development</li>
-            <li className="sec-text mb-40 mt-30">Construction Document Preparation</li>
-            <li className="sec-text mb-40 mt-30">As-Built Drawings</li>
-            <li className="sec-text mb-40 mt-30">Feasibility Studies</li>
-            <li className="sec-text mb-40 mt-30">Bidding and Negotiation</li>
-            <li className="sec-text mb-40 mt-30">Construction and Contract Administration</li>
-            <li className="sec-text mb-40 mt-30">Architect of Record</li>
-            <li className="sec-text mb-40 mt-30">Project Management</li>
+            <li className="sec-text mb-12 mt-12">Conceptual Design Development</li>
+            <li className="sec-text mb-12 mt-12">Detail Design Development</li>
+            <li className="sec-text mb-12 mt-12">Construction Document Preparation</li>
+            <li className="sec-text mb-12 mt-12">As-Built Drawings</li>
+            <li className="sec-text mb-12 mt-12">Feasibility Studies</li>
+            <li className="sec-text mb-12 mt-12">Bidding and Negotiation</li>
+            <li className="sec-text mb-12 mt-12">Construction and Contract Administration</li>
+            <li className="sec-text mb-12 mt-12">Architect of Record</li>
+            <li className="sec-text mb-12 mt-12">Project Management</li>
            </ol>
             <p className="sec-text mb-40 mt-30">
             Experience the transformative power of architectural excellence with Capital Engineering Consultancy. Contact us today to explore how 

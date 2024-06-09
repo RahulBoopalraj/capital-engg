@@ -17,7 +17,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src="/services/interior.png"
                 alt="img"
               />
             </div>
@@ -49,7 +49,7 @@ export default function ServiceDetails({ serviceId }) {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/services/interior1.jpg)",
                     overflow: "hidden",
                   }}
                 ></div>
@@ -63,13 +63,13 @@ export default function ServiceDetails({ serviceId }) {
           <div className="col-xl-8">
             <h4>Our Scope of Work for Fit Out and Interior Design Includes:</h4>
            <ol>
-            <li className="sec-text mb-40 mt-30">Concept Design – Mood board creation and concept sketches.</li>
-            <li className="sec-text mb-40 mt-30">Detail Design – Preparation of detailed drawings and 3D views.</li>
-            <li className="sec-text mb-40 mt-30">Material and Finish Review – Evaluation of samples, submittals, and shop drawings.</li>
-            <li className="sec-text mb-40 mt-30">Value Engineering.</li>
-            <li className="sec-text mb-40 mt-30">MEP Services.</li>
-            <li className="sec-text mb-40 mt-30">Tender Document Preparation.</li>
-            <li className="sec-text mb-40 mt-30">Construction Stage – Supervision and preparation of Snag List.</li>
+            <li className="sec-text mb-12 mt-12">Concept Design – Mood board creation and concept sketches.</li>
+            <li className="sec-text mb-12 mt-12">Detail Design – Preparation of detailed drawings and 3D views.</li>
+            <li className="sec-text mb-12 mt-12">Material and Finish Review – Evaluation of samples, submittals, and shop drawings.</li>
+            <li className="sec-text mb-12 mt-12">Value Engineering.</li>
+            <li className="sec-text mb-12 mt-12">MEP Services.</li>
+            <li className="sec-text mb-12 mt-12">Tender Document Preparation.</li>
+            <li className="sec-text mb-12 mt-12">Construction Stage – Supervision and preparation of Snag List.</li>
            </ol>
             <p className="sec-text mb-40 mt-30">
             Recognizing that every project is unique, our team adopts a collaborative approach, closely engaging with clients to 

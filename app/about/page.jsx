@@ -47,7 +47,7 @@ export default function AboutPage() {
                 <div
                   className="jarallax background-image"
                   style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                    backgroundImage: "url(/about.jpg)",
                     overflow: "hidden",
                   }}
                 ></div>
