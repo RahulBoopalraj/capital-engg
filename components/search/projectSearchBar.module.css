@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 40rem;
+}
+
+.searchelements {
+    display: flex;
+}
+
+.searchbox {
+    height: 3.5rem;
+    padding-left: 1rem;
+    background-color: rgb(233, 233, 233);
+    border-radius: 0px;
+    flex: 1;
+    /* Allow the searchbox to take up remaining space */
+}
+
+.searchbox:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.searchbox::placeholder {
+    color: rgb(164, 166, 169);
+}
+
+.searchbutton {
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    width: 4rem;
+    outline: none;
+    border: none;
+}
+
+.filtersection {
+    display: flex;
+    gap: 1rem;
+    margin: 0.25rem 0rem;
+    flex-wrap: wrap;
+    /* Allow filter cards to wrap on smaller screens */
+}
+
+.filtercard {
+    padding: 0.11rem 0.75rem;
+    color: rgb(51, 51, 51);
+    background-color: rgb(212, 212, 212);
+    border-radius: 99px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+
+    /* Tablet and smaller */
+    .searchbar {
+        max-width: 90%;
+        /* Adjust max-width for smaller screens */
+    }
+
+    .searchbox {
+        font-size: 1rem;
+        /* Adjust font size for better readability */
+    }
+
+    .filtercard {
+        font-size: 0.8rem;
+        /* Adjust font size for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Mobile and smaller */
+    .searchbar {
+        max-width: 95%;
+        /* Adjust max-width for smaller screens */
+    }
+
+    .searchbox {
+        font-size: 0.9rem;
+        /* Adjust font size for better readability */
+    }
+
+    .filtercard {
+        font-size: 0.7rem;
+        /* Adjust font size for better readability */
+    }
+}

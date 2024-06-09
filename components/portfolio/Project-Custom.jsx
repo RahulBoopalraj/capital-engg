@@ -1,14 +1,41 @@
-import { portfolioData5 } from "@/data/portfolioCustom";
+"use client";
+
+import { portfolioDataCustom } from "@/data/portfolioCustom";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 
-export default function ProjectsCustom() {
+export default function ProjectsCustom(props) {
+  const [filteredData, setFilteredData] = useState(portfolioDataCustom);
+
+  useEffect(() => {
+    if (props.filter && props.filter.length > 0) {
+      const newFilteredData = portfolioDataCustom.filter((item) => {
+        const itemLowerCase = item.title.toLowerCase();
+        const projectTitleLowerCase = item.projectTitle.toLowerCase();
+        return props.filter.some((filterValue) => {
+          const filterValueLowerCase = filterValue.toLowerCase();
+          return (
+            item.categoryLinks.some((link) =>
+              link.toLowerCase().includes(filterValueLowerCase)
+            ) ||
+            projectTitleLowerCase.includes(filterValueLowerCase) ||
+            itemLowerCase.includes(filterValueLowerCase)
+          );
+        });
+      });
+      setFilteredData(newFilteredData);
+    } else {
+      setFilteredData(portfolioDataCustom);
+    }
+  }, [props.filter]);
+
   return (
     <div className="portfolio-area-1 space overflow-hidden">
       <div className="container">
         <div className="row gy-40 gx-60 justify-content-center">
-          {portfolioData5.map((elm, i) => (
+          {filteredData.map((elm, i) => (
             <div key={i} className="col-xl-6 col-lg-6">
               <div className="portfolio-wrap">
                 <div className="portfolio-thumb">
@@ -28,7 +55,7 @@ export default function ProjectsCustom() {
                     </Link>
                   </h3>
                   <ul className="portfolio-meta">
-                    {elm.categoryLinks.map((elm2, i2) => (
+                    {elm.categoryLinks.slice(0, 3).map((elm2, i2) => (
                       <li key={i2}>
                         <a href="#">{elm2}</a>
                       </li>
