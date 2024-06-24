@@ -43,7 +43,7 @@ export default function PorjectSearchBar({ filterArray, setFilterArray }) {
           </button>
         </div>
         <div className={styles.filtersection}>
-          {filterArray.map((item, index) => (
+          {filterArray && filterArray.map((item, index) => (
             <div className={styles.filtercard} key={index}>
               {item}
               <span

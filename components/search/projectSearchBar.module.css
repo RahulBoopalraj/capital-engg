@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 2rem 0rem;
+    margin: 4rem 0rem 0rem 0rem;
 }
 
 .searchbar {
@@ -26,7 +26,9 @@
     /* Allow the searchbox to take up remaining space */
 }
 
-.searchbox:hover {
+.searchbox:hover,
+.searchbox:focus,
+.searchbox:not(:placeholder-shown) {
     background-color: rgb(233, 233, 233);
 }
 
