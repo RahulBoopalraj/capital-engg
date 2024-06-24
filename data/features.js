@@ -28,34 +28,46 @@ export const featureData2 = [
   {
     id: 5,
     icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel success we love building",
+    title: "1. Smart and Resilient Infrastructure",
+    text: "In our pursuit of smart infrastructure, we harness cutting-edge technologies and data-driven systems to optimize the performance and functionality of our projects. By integrating sensors, automation, and real-time monitoring, we create infrastructure that can respond dynamically to changing conditions.",
   },
   {
     id: 6,
     icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Web Development",
-    text: "We care success relationships fuel success we love building",
+    title: "2. Team Expertise and Credentials",
+    text: "Our team members actively volunteer their time and expertise, offering their skills to projects that benefit the community. Whether it's participating in community clean-up campaigns, providing pro bono consulting services, or mentoring students interested in engineering, we are dedicated to giving back.",
   },
   {
     id: 7,
     icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Digital Marketing",
-    text: "We care success relationships fuel success we love building",
+    title: "3. Community Involvement",
+    text: "We are deeply committed to making a positive impact in the communities where we live and work. We believe in the power of community involvement and strive to contribute to the betterment of society through various initiatives. By partnering with local organizations and encouraging employee volunteerism.",
+  },
+  {
+    id: 8,
+    icon: "/assets/img/icon/feature-icon1-1.svg",
+    title: "4. Notable Projects",
+    text: "we take immense pride in showcasing our portfolio of notable projects that exemplify our expertise, innovation, and commitment to excellence in civil engineering. These projects stand as testaments to our ability to tackle complex challenges, deliver outstanding results, and make a lasting impact on the communities we serve.",
+  },
+  {
+    id: 9,
+    icon: "/assets/img/icon/feature-icon1-2.svg",
+    title: "5. Innovation and Sustainability",
+    text: "We continuously strive to push the boundaries of traditional engineering practices, seeking creative and cutting-edge solutions for our projects. Through research and development, we embrace emerging technologies, methodologies, and materials that improve efficiency.",
   },
 ];
 export const featureData3 = [
   {
     id: 8,
     icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel success we love building",
+    title: "Notable Projects",
+    text: "we take immense pride in showcasing our portfolio of notable projects that exemplify our expertise, innovation, and commitment to excellence in civil engineering. These projects stand as testaments to our ability to tackle complex challenges, deliver outstanding results, and make a lasting impact on the communities we serve.",
   },
   {
     id: 9,
     icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Web Development",
-    text: "We care success relationships fuel success we love building",
+    title: "Innovation and Sustainability",
+    text: "We continuously strive to push the boundaries of traditional engineering practices, seeking creative and cutting-edge solutions for our projects. Through research and development, we embrace emerging technologies, methodologies, and materials that improve efficiency.",
   },
   {
     id: 10,

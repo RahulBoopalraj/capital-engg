@@ -1,5 +1,5 @@
 "use client";
-import { portfolioData } from "@/data/portfolio";
+import { portfolioData } from "@/data/pride";
 import addGsap from "@/utils/addGsap";
 import Image from "next/image";
 import Link from "next/link";
@@ -39,6 +39,7 @@ export default function Portfolio() {
       className="portfolio-area-1 space-bottom overflow-hidden background-image"
       style={{ backgroundImage: "url(/assets/img/bg/portfolio-1-bg.png)" }}
     >
+      
       <div className="container">
         <div
           className="row  gy-60  justify-content-between masonary-active"
@@ -60,18 +61,19 @@ export default function Portfolio() {
                   </Link>
                 </div>
                 <div className="portfolio-details">
-                  <ul className="portfolio-meta">
-                    {elm.categoryLinks.map((elm2, i2) => (
-                      <li key={i2}>
-                        <a href="#">{elm2}</a>
-                      </li>
-                    ))}
-                  </ul>
+                 
                   <h3 className="portfolio-title">
                     <Link scroll={false} href={`/project-details/${elm.id}`}>
                       {elm.projectTitle}
                     </Link>
                   </h3>
+                  {/* <ul className="portfolio-meta">
+                    {elm.categoryLinks.map((elm2, i2) => (
+                      <li key={i2}>
+                        <a href="#">{elm2}</a>
+                      </li>
+                    ))}
+                  </ul> */}
                   <Link
                     scroll={false}
                     href={`/project-details/${elm.id}`}

@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div className="team-area-1 space-bottom overflow-hidden">
+    <div className="team-area-1 space-top overflow-hidden">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">

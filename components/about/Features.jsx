@@ -13,7 +13,7 @@ export default function Features() {
         <Image
           width={838}
           height={778}
-          src="/about.png"
+          src="/about1.jpg"
           alt="img"
         />
       </div>

@@ -61,9 +61,9 @@ export default function AboutPage() {
         </div>
       </div>
     
-      <Awards />
+      {/* <Awards /> */}
       <Team />
-      <Contact />
+      {/* <Contact /> */}
       <Clients />
       <MarqueeComponent />
       <Footer8 />

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function Features() {
+export default function Features3() {
   return (
     <div className="why-area-1 space bg-theme shape-mockup-wrap">
       <div

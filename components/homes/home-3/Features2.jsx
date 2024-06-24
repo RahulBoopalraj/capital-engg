@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Features2() {
   return (
-    <div className="feature-area-1 space-bottom">
+    <div className="feature-area-1 space-top space-bottom">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8">

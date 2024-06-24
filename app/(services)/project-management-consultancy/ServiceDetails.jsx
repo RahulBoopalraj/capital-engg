@@ -98,11 +98,11 @@ export default function ServiceDetails({ serviceId }) {
                   </div>
                   <h4 className="feature-card-title">
                     <Link scroll={false} href="/project">
-                      Custom Solution
+                    Advanced Design
                     </Link>
                   </h4>
                   <p className="feature-card-text mb-n2">
-                    We care success relationships fuel success we love building
+                  Leverage cutting-edge design ensuring robust project outcomes
                   </p>
                 </div>
               </div>

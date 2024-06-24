@@ -28,21 +28,19 @@ export default function Skills() {
             <div className="about-content-wrap">
               <div className="title-area mb-0">
                 <h2 className="sec-title">
-                  We Offer a Wide Range of Brand Services
+                  Who we are ?
                 </h2>
                 <p className="sec-text mt-35 mb-40">
-                  We are a creative agency working with brands building
-                  insightful strategy, creating unique designs and crafting
-                  value
+                Capital Engineering Consultancy offers specialized engineering and design services across residential, commercial, industrial, and environmental sectors. With offices in the UAE, India, Iraq, KSA, and the UK, we deliver innovative, high-quality solutions tailored to our clients' needs. Our experienced team is dedicated to transforming visionary concepts into reality, ensuring excellence in every project.
                 </p>
-                {skillsData.map((skill) => (
+                {/* {skillsData.map((skill) => (
                   <div key={skill.id} className="skill-feature">
                     <h3 className="skill-feature_title">{skill.title}</h3>
                     <div className="progress">
                       <SkillProgress progress={skill.progress} />
                     </div>
                   </div>
-                ))}
+                ))} */}
               </div>
             </div>
           </div>

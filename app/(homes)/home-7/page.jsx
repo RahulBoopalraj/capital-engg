@@ -7,11 +7,16 @@ import Features from "@/components/homes/home-7/Features";
 import Hero from "@/components/homes/home-7/Hero";
 import Projects from "@/components/homes/home-7/Projects";
 import React from "react";
-import Faq from "@/components/homes/home-7/Faq";
+// import Faq from "@/components/homes/home-7/Faq";
+
+import About from "@/components/homes/home-1/About";
+import Features2 from "@/components/homes/home-3/Features2";
 import Testimonials from "@/components/homes/common/Testimonials";
 import Blogs from "@/components/homes/home-7/Blogs";
 import Cta from "@/components/homes/home-7/Cta";
 import Footer3 from "@/components/footers/Footer3";
+import Faq from "@/components/homes/home-1/Faq"
+import Portfolio from "@/components/homes/home-1/Portfolio";
 import MarqueeComponent from "@/components/common/Marquee";
 export const metadata = {
   title: "Home 7 || Frisk - Creative Agency & Portfolio Nextjs Template",
@@ -22,13 +27,17 @@ export default function HomePage7() {
       <Header5 />
       <Hero />
       <Clients />
-      <Features />
       <Skills />
-      <Projects />
-      <MarqueeComponent />
+      <Features2 />
+      
+      <Portfolio />
       <Faq />
+      
+     
+      {/* <Faq /> */}
       <Testimonials />
-      <Blogs />
+      <MarqueeComponent />
+      <Projects />
       <Cta />
       <Footer3 />
     </>

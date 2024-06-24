@@ -30,7 +30,7 @@ export default function Features() {
                         <a href="#">{elm.title}</a>
                       </h4>
                       <p className="feature-card-text">{elm.text}</p>
-                      <Link
+                      {/* <Link
                         scroll={false}
                         href={`/service-details`}
                         className="link-btn"
@@ -45,7 +45,7 @@ export default function Features() {
                           src="/assets/img/icon/arrow-left-top.svg"
                           alt="icon"
                         />
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
