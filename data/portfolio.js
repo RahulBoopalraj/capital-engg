@@ -129,23 +129,23 @@ export const portfolioData3 = [
 export const portfolioData4 = [
   {
     id: 18,
-    imageUrl: "/assets/img/portfolio/portfolio3_1.jpg",
+    imageUrl: "/proj3.jpg",
     category: "Branding",
-    title: "Decentralized Platform",
+    title: "Beach Front, Injambakkam",
     parentClass: "col-lg-7",
   },
   {
     id: 19,
-    imageUrl: "/assets/img/portfolio/portfolio3_2.jpg",
+    imageUrl: "/proj2.jpg",
     category: "Branding",
-    title: "Laundering Compliance",
+    title: "TNHB, Erode",
     parentClass: "col-lg-5",
   },
   {
     id: 20,
-    imageUrl: "/assets/img/portfolio/portfolio3_3.jpg",
+    imageUrl: "/proj1.jpg",
     category: "Branding",
-    title: "Anti Money Laundering",
+    title: "Paradip Port, Odisha",
     parentClass: "col-lg-12",
   },
   {
