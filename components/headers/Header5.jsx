@@ -72,7 +72,7 @@ export default function Header5() {
               <Image
                 width={86}
                 height={24}
-                src="/assets/img/logo.svg"
+                src="/logo.png"
                 alt="Ovation"
               />
             </Link>
@@ -112,9 +112,9 @@ export default function Header5() {
                   <div className="header-logo">
                     <Link scroll={false} href="/">
                       <Image
-                        width={86}
-                        height={24}
-                        src="/assets/img/logo-white-sm.svg"
+                        width={220}
+                        height={70}
+                        src="/logo.png"
                         alt="logo"
                       />
                     </Link>

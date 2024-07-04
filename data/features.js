@@ -28,34 +28,36 @@ export const featureData2 = [
   {
     id: 5,
     icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "1. Smart and Resilient Infrastructure",
-    text: "In our pursuit of smart infrastructure, we harness cutting-edge technologies and data-driven systems to optimize the performance and functionality of our projects. By integrating sensors, automation, and real-time monitoring, we create infrastructure that can respond dynamically to changing conditions.",
+    title: "1. Infrastructure",
+    text: "Our use of advanced tech and data systems improves infrastructure performance. Using sensors, automation, and real-time monitoring, our infrastructure adapts dynamically.",
   },
   {
     id: 6,
     icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "2. Team Expertise and Credentials",
-    text: "Our team members actively volunteer their time and expertise, offering their skills to projects that benefit the community. Whether it's participating in community clean-up campaigns, providing pro bono consulting services, or mentoring students interested in engineering, we are dedicated to giving back.",
+    title: "2. Team Expertise",
+    text: "Our team volunteers their expertise to benefit the community. From clean-up campaigns to pro bono consulting and mentoring students, we are dedicated to giving back and making a difference.",
   },
   {
     id: 7,
     icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: "3. Community Involvement",
-    text: "We are deeply committed to making a positive impact in the communities where we live and work. We believe in the power of community involvement and strive to contribute to the betterment of society through various initiatives. By partnering with local organizations and encouraging employee volunteerism.",
+    title: "3. Group Involvement",
+    text: "We impact the communities where we live and work positively. Through various initiatives and partnerships with local organizations, we encourage employee volunteerism and contribute to society.",
   },
   {
     id: 8,
     icon: "/assets/img/icon/feature-icon1-1.svg",
     title: "4. Notable Projects",
-    text: "we take immense pride in showcasing our portfolio of notable projects that exemplify our expertise, innovation, and commitment to excellence in civil engineering. These projects stand as testaments to our ability to tackle complex challenges, deliver outstanding results, and make a lasting impact on the communities we serve.",
+    text: "Our portfolio showcases our expertise, innovation, and commitment to civil engineering excellence. These projects demonstrate our ability to solve complex challenges and deliver outstanding results.",
   },
   {
     id: 9,
     icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "5. Innovation and Sustainability",
-    text: "We continuously strive to push the boundaries of traditional engineering practices, seeking creative and cutting-edge solutions for our projects. Through research and development, we embrace emerging technologies, methodologies, and materials that improve efficiency.",
+    title: "5. Innovation",
+    text: "We push the boundaries of traditional engineering by seeking innovative solutions. Through R&D, we embrace new technologies, methodologies, and materials that enhance efficiency.",
   },
 ];
+
+
 export const featureData3 = [
   {
     id: 8,

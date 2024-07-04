@@ -74,7 +74,7 @@ export default function Header3() {
                 height={86}
                 width={24}
                 style={{ width: "86px", height: "24px" }}
-                src="/assets/img/logo.svg"
+                src="/logo.png"
                 alt="Ovation"
               />
             </Link>
@@ -114,9 +114,9 @@ export default function Header3() {
                   <div className="header-logo">
                     <Link scroll={false} href="/">
                       <Image
-                        width={86}
-                        height={24}
-                        src="/assets/img/logo.svg"
+                        width={220}
+                        height={70}
+                        src="/logo-black.png"
                         alt="logo"
                       />
                     </Link>

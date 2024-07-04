@@ -19,7 +19,7 @@ import Faq from "@/components/homes/home-1/Faq"
 import Portfolio from "@/components/homes/home-1/Portfolio";
 import MarqueeComponent from "@/components/common/Marquee";
 export const metadata = {
-  title: "Home 7 || Frisk - Creative Agency & Portfolio Nextjs Template",
+  title: "Capital Engineering",
 };
 export default function HomePage7() {
   return (

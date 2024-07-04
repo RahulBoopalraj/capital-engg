@@ -55,11 +55,13 @@ export default function ProjectsCustom(props) {
                     </Link>
                   </h3>
                   <ul className="portfolio-meta">
-                    {elm.categoryLinks.slice(0, 3).map((elm2, i2) => (
-                      <li key={i2}>
-                        <a href="#">{elm2}</a>
+                   
+                      <li >
+                      {elm.categoryLinks.slice(0, 3).map((elm2, i2) => (
+                        <a key={i2} href="#">{elm2} / </a>
+                           ))}
                       </li>
-                    ))}
+                 
                   </ul>
                 </div>
               </div>
